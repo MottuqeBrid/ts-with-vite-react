@@ -1,6 +1,11 @@
 import "./App.css";
 import User from "./components/User/User";
 
+const user1 = {
+  name: "Johan",
+  email: "johan@example.com",
+  age: 30,
+};
 function App() {
   return (
     <>
@@ -11,6 +16,7 @@ function App() {
           email="john.doe@example.com"
           age={30}
           isRegistered={true}
+          language={["English", "Spanish", "French"]}
         />
       </div>
     </>
